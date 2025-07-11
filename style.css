@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Bikin konten di tengah */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    min-height: 100vh; /* Tinggi minimal 100% viewport */
+    background-color: #282c34; /* Warna latar belakang */
+    color: #fff; /* Warna teks putih */
+    margin: 0;
+}
+
+.stopwatch-container {
+    background-color: #3a3f4a;
+    padding: 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #61dafb; /* Warna biru cerah */
+}
+
+.display {
+    font-size: 7em; /* Ukuran angka stopwatch */
+    margin-bottom: 30px;
+    font-family: 'Courier New', monospace; /* Font monospasi biar angkanya rapi */
+}
+
+.buttons button {
+    background-color: #61dafb;
+    color: #282c34;
+    border: none;
+    padding: 25px 50px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #21a1f1; /* Warna hover */
+}
